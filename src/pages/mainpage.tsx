@@ -82,7 +82,7 @@ export const MainPage: React.FC = () => {
                             className="mt-12 mr-20 ml-20 mb-4  rounded-full "
                         />
                         <div className="text-xl mr-20 ml-20 ">
-                            First Name: {user.first_name}
+                             {user.first_name}
                         </div>
                         <div className="w-[265px] h-7 mb-5 mr-5 ml-5 flex justify-end">
                             <div className="bg-customGray w-auto h-auto flex justify-center items-center">

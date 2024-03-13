@@ -93,7 +93,6 @@ export const Signup = () => {
 
     const handleLogin = (email: string, password: string) => {
         const auth = getAuth();
-
         signInWithEmailAndPassword(auth, email, password)
             .then(({ user }) => {
                 dispatch(

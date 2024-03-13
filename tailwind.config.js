@@ -22,6 +22,9 @@ export default {
                 "sm": "375px",
                 "lg": "1440px"
             },
+            height:{
+                "64":"265px"
+            }
         
         },
         plugins: [],
